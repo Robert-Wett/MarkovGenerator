@@ -1,0 +1,19 @@
+{
+  "name": "markov-generator",
+  "version": "0.0.1",
+  "description": "Generating text with Markov processes",
+  "main": "lib/markovGenerator.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Robert Wettlaufer",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
