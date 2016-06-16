@@ -1,5 +1,5 @@
 # Markov Generator
-Given a filename or an array of filenames, this class will stream in each seed file and build an overall table from which it generates markov text output from.
+Given a filename or an array of filenames, this class will stream in each seed file and build an overall table from which it generates markov text output from. Inspired by [this dailyprogrammer challenge.](https://www.reddit.com/r/dailyprogrammer/comments/4n6hc2/20160608_challenge_270_intermediate_generating/)
 
 ### Example Usage
 ```javascript
