@@ -20,6 +20,7 @@ This branch is set up to specifically create fake trump tweets based on over 700
 ```
 git clone git@github.com:Robert-Wett/MarkovGenerator.git;
 cd MarkovGenerator;
+git fetch origin feature/trumpTweetBot:feature/trumpTweetBot; git checkout feature/trumpTweetBot;
 npm install;
 node index.js
 ```
