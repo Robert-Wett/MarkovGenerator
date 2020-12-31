@@ -10,10 +10,12 @@ const trumpBot = new MarkovGenerator([
   `${filePrefix}6.txt`,
   `${filePrefix}7.txt`,
   `${filePrefix}8.txt`,
+  `${filePrefix}9.txt`,
+  `${filePrefix}10.txt`,
+  `${filePrefix}11.txt`,
+  `${filePrefix}12Corona.txt`,
+  `${filePrefix}13RallySpeeches.txt`,
+  `${filePrefix}14ArlingtonVA.txt`,
 ]);
 
-trumpBot.generate(15).then((gibberish) => console.log(`${gibberish}\n\n`));
-trumpBot.generate(15).then((gibberish) => console.log(`${gibberish}\n\n`));
-trumpBot.generate(15).then((gibberish) => console.log(`${gibberish}\n\n`));
-trumpBot.generate(15).then((gibberish) => console.log(`${gibberish}\n\n`));
-trumpBot.generate(15).then((gibberish) => console.log(`${gibberish}\n\n`));
+module.exports = trumpBot;

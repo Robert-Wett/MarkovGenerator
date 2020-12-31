@@ -1,0 +1,35 @@
+they took the ball down to the field to play
+they stole the small childs food to eat.
+they then played with the ball until the food they took from the child was done.
+
+who like, say like, like after everything
+
+* like, - [everything, whatever, cool]
+* they - [took, stole, then]
+* took - [the, from]
+* the - [ball, field, small, ball, food, child]
+* ball - [down, until]
+* down - [to]
+* to - [the, play, eat]
+* field - [to]
+* play - [NONWORD]
+* stole - [the]
+* small - [childs]
+* childs - [food]
+* food - [to, they]
+* eat - [NONWORD]
+* then - [played]
+* played - [with]
+* with - [the]
+* until - [the]
+* from - [the]
+* child - [was]
+* was - [done.]
+* done. - [NONWORD]
+
+
+1) Can recreate each original sentence
+2) The bigger the 'Table', the more options we have
+3) The more options we have, the more randomized the output will become
+4) This does not attempt to capture a writers 'Style' on purpose - but it does it on accident
+5) This same principle works on other languages! It will still work (think about it)
