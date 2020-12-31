@@ -1,7 +1,8 @@
+
 const MarkovGenerator = require('./lib/markovGenerator');
 
 const filePrefix = './files/trump';
-const trumpBot = new MarkovGenerator([
+const TrumpSeedFiles = [
   `${filePrefix}1.txt`,
   `${filePrefix}2.txt`,
   `${filePrefix}3.txt`,
@@ -16,6 +17,13 @@ const trumpBot = new MarkovGenerator([
   `${filePrefix}12Corona.txt`,
   `${filePrefix}13RallySpeeches.txt`,
   `${filePrefix}14ArlingtonVA.txt`,
-]);
+];
 
-module.exports = trumpBot;
+const CreateTrumpBot = (seeds = TrumpSeedFiles, markov = MarkovGenerator) =>
+  new markov(seeds);
+
+module.exports =  {
+  TrumpSeedFiles,
+  MarkovGenerator,
+  CreateTrumpBot,
+};
